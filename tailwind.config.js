@@ -4,12 +4,22 @@ export default {
 	theme: {
 		extend: {
 			colors: {
-				home: "#faf9fb",
-				lightYellow: "#ecf7d4",
-				yellowTag: "#d6f497",
-				favorites: "#faf9fb",
+				mainTheme: "#faf9fb",
+				green: {
+					bg: "#ecf7d4",
+					badge: "#d6f497",
+				},
+				orange: {
+					bg: "#f9efe1",
+					badge: "#f7e088",
+				},
+				red: {
+					bg: "#fbe5e7",
+					badge: "#fdc6c7",
+				},
 			},
 		},
 	},
+
 	plugins: [],
 };
